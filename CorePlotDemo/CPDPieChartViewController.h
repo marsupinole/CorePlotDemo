@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CPDPieChartViewController : UIViewController
+@interface CPDPieChartViewController : UIViewController <CPTPlotDataSource, UIActionSheetDelegate>
 
 @end
